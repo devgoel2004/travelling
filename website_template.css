@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+}
+i{
+    padding: 15px 10px 10px 10px;
+    color: gray;
+}
+#container{
+    background-image: url(taj_mahal.jpeg);
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#back{
+    background-color: aliceblue;
+    height: 60px;
+    position: relative;   
+}
+
+li{
+    display: inline-block;
+}
+ul#nav{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    list-style-type: none;
+    justify-content: end;
+}
+li a{
+    text-decoration: none;
+    padding:20px 10px 20px 10px;
+}
+li a:hover{
+    background-color: gray;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 20px 20px 20px 20px;
+}
+nav#icon{
+    position: fixed;
+}
+#heading{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+h1.head{
+    color: burlywood;
+    font-size: 46px;
+    text-align:center;
+}
+#button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    width: 100px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    color: black;
+    box-shadow: 2px 2px 10px darkgreen;
+}
+div#story{
+    background-color: antiquewhite;
+    color: black;
+    width: 100%;
+    height: 400px;
+}
+h2.story{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Leckerli One', cursive;
+}
+p.stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: large;
+}
+#btn1{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    width: 125px;
+    height: 40px;
+    margin: auto 0 auto 0;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+#special{
+    background-color: azure;
+    width: 100%;
+    height: 500px;
+}
+#head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    font-family: 'Abril Fatface', cursive;
+}
+h2#head{
+    font-size:30px;
+}
+div#guide{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.guides{
+    width: 30vw;
+    height: 50vh;
+}
+div.guides:hover{
+    color: white;
+    background-color:black;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icons{
+    font-size: 80px;
+    color: grey;
+    cursor: pointer;
+}
+#icons:hover{
+    color: white;
+}
+#content{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+}
+#title{
+    width:100%;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+#video{
+    background-color: azure;
+    width: 100%;
+    height: 500px;
+}
+#more{
+    background-color: aliceblue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#btn-contain{
+    background-color: aliceblue;
+    border: 1px solid black;
+    height: 40px;
+    width: 125px;
+    cursor: pointer;
+}
+#btn-contain:hover{
+    background-color: black;
+    color: white;
+}
+#container-btn{
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+#testimonials{
+    width: 30%;
+}
+#testimonials:hover{
+    background-color: gray;
+    color: white;
+}
+div#test1{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+#name{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    height: 70px;
+    align-items: flex-end;
+    font-size: large;
+    padding-right: 20px;
+}
+#photo{
+    background-image: url(photo.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+}
+div#quote{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 200px;
+    font-family: 'Berkshire Swash', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+#shadow:hover{
+    text-shadow: 2px 2px 10px white;
+}
+#text{
+    color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}

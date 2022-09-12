@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 35px;
+}
+p{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:lighter;
+}
+input{
+    width: 60%;
+    height: 30px;
+    margin-top: 20px;
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    margin-right: auto;
+    margin-left: auto;
+}
+#input{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    margin-top: 20px;
+    width: 60%;
+}
+#submit{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+p#demo{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
